@@ -1,0 +1,84 @@
+.bg-light{
+  background-color: white !important;
+}
+.logoimg{
+  height: 100%;
+  width: 65%;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #57B2DD;
+  /* font-weight: 700; */
+  font-size: 25px;
+  /* text-shadow: 1px 1px  rgba(89,89,108,0.67); */
+  font-family: 'Chicle', 'cursive';
+  padding-left:34px;
+  
+}
+.imgr{
+  background-image: url('./images/ape-popUp.png');
+  background-repeat: no-repeat;
+ 
+  margin-bottom:500px;
+  background-position: center;
+  position: absolute;
+}
+.backgroungColor{
+  background-image: url(./images/sky-story.png);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+.col{
+ margin:0px;
+ padding:0px 
+}
+.row{
+  margin:0px;
+  padding:0px;
+}
+
+@media screen and (min-width: 601px) {
+  .MonkeySee {
+      height: 400px;
+      width: 400px;
+      position: absolute;
+      right: -12px;
+      bottom:-37px;
+      
+      
+}
+.storyImage {
+  height:400px;
+  width: 400px
+}
+.cloudSmallmargin {
+  margin-left: 30%;
+  margin-top: 8px;
+}
+.cloudLargemargin{
+  margin-left:70px;
+}
+
+ 
+}
+
+@media screen and (max-width: 600px) {
+.MonkeySee{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: -12px;
+}
+.storyImage {
+  height:300px;
+  width: 100%;
+}
+
+}
